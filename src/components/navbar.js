@@ -3,7 +3,7 @@ const NavBar = props => {
     return (
       <div className="nav-bar">
         <span>&lt;</span>
-        <div className="title">{props.children}</div>
+        <div className="title">666{props.children}</div>
       </div>
     )
   }
@@ -12,9 +12,11 @@ const NavBar = props => {
     render() {
       return (
         <div>
-          <NavBar>标题</NavBar>
+          <NavBar>标题666</NavBar>
           <br />
-          <NavBar>商品</NavBar>
+          <NavBar>
+            <button>cs</button>
+          </NavBar>
           <br />
           <NavBar>
             <span style={{ color: 'red' }}>花哨的标题</span>
