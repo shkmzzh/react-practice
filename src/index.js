@@ -7,10 +7,11 @@ import './index.css'
 // import Parent from './components/Parent'
 // import Main from './components/main.js'
 // import Navbar from './components/navbar.js'
-import Clock from './components/cycle.js'
+// import Clock from './components/cycle.js'
+import TodoMVC from './TodoMVC/index'
 const el = (
   <>
-    <Clock></Clock>
+    <TodoMVC></TodoMVC>
   </>
 )
 
