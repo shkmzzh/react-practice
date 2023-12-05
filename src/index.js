@@ -6,10 +6,11 @@ import './index.css'
 // import {Upload} from './components/upload.js'
 // import Parent from './components/Parent'
 // import Main from './components/main.js'
-import Navbar from './components/navbar.js'
+// import Navbar from './components/navbar.js'
+import Clock from './components/cycle.js'
 const el = (
   <>
-    <Navbar></Navbar>
+    <Clock></Clock>
   </>
 )
 
