@@ -8,10 +8,11 @@ import './index.css'
 // import Main from './components/main.js'
 // import Navbar from './components/navbar.js'
 // import Clock from './components/cycle.js'
-import TodoMVC from './TodoMVC/index'
+// import TodoMVC from './TodoMVC/index'
+import { Count } from './Hook/useState'
 const el = (
   <>
-    <TodoMVC></TodoMVC>
+    <Count></Count>
   </>
 )
 

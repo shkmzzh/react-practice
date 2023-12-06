@@ -10,15 +10,20 @@ const Main = (props) => {
     await axios.patch(`http://localhost:5000/todos/${id}`, { done: !done })
     props.getData()
   }
-  let checkedValue = props.ListData.every(item=>item.done)
+  // let checkedValue = props.ListData.every(item=>item.done)
   const changeChecked = (val) => {
-    console.log(val);
-    checkedValue=val
+    console.log(val)
+    var checkedValue = val
   }
   return (
     <section className="main">
-       <input id="toggle-all" checked={checkedValue} className="toggle-all" type="checkbox"  onChange={(e)=>changeChecked(e.target.checked)} />
-      <label htmlFor="toggle-all" onClick={()=>{props.AllChecked(checkedValue)}}>
+      <input id="toggle-all" checked={checkedValue} className="toggle-all" type="checkbox" onChange={(e) => changeChecked(e.target.checked)} />
+      <label
+        htmlFor="toggle-all"
+        onClick={() => {
+          props.AllChecked(checkedValue)
+        }}
+      >
         Mark all as complete
       </label>
       <ul className="todo-list">
