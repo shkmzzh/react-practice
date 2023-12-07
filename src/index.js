@@ -9,10 +9,11 @@ import './index.css'
 // import Navbar from './components/navbar.js'
 // import Clock from './components/cycle.js'
 // import TodoMVC from './TodoMVC/index'
-import { Count } from './Hook/useState'
+// import { Count } from './Hook/useState'
+import {App} from './ShopCart/app'
 const el = (
   <>
-    <Count></Count>
+    <App></App>
   </>
 )
 
