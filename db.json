@@ -50,5 +50,52 @@
       "done": false,
       "id": 10
     }
+  ],
+  "goodsList": [
+    {
+      "id": "4018446",
+      "state": false,
+      "name": "麦瑞克智能磁控轻音椭圆机",
+      "desc": "创新主体免安装，锻炼全身，纤腰细臀（HUAWEIHiLink生态）app",
+      "price": "1899.00",
+      "picture": "https://yanxuan-item.nosdn.127.net/c570b87e7f5f2ab77567e0f537eaee37.jpg",
+      "orderNum": 20
+    },
+    {
+      "id": "3991784",
+      "state": false,
+      "name": "复古经典女式休闲鞋小白鞋",
+      "desc": "超高性价比的真皮小白鞋app",
+      "price": "172.00",
+      "picture": "https://yanxuan-item.nosdn.127.net/ebf52f79b473b7839bcef1568975a179.png",
+      "orderNum": 6
+    },
+    {
+      "id": "1135076",
+      "state": false,
+      "name": "红小豆450克*3袋",
+      "desc": "皮薄易煮，粒粒香甜app",
+      "price": "42.80",
+      "picture": "https://yanxuan-item.nosdn.127.net/eaec90be370a438e565e10189b7a390a.png",
+      "orderNum": 53
+    },
+    {
+      "state": true,
+      "id": "3991977",
+      "name": "家庭趣味拳击运动套装",
+      "desc": "拳击不倒翁球+手套，全家练习，趣味运动app",
+      "price": "469.00",
+      "picture": "https://yanxuan-item.nosdn.127.net/e7ea387c419fc741c0eee3611093c23f.png",
+      "orderNum": 20
+    },
+    {
+      "state": false,
+      "id": "4001877",
+      "name": "朱炳仁·铜忠义千秋关公风水摆件",
+      "desc": "众今礼敬关二爷，祈愿慈恩常荫庇app",
+      "price": "4280.00",
+      "picture": "https://yanxuan-item.nosdn.127.net/cd9060820a1a52f296fa2502e56a5872.jpg",
+      "orderNum": 1
+    }
   ]
 }
